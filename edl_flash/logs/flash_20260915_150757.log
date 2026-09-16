@@ -1,0 +1,2624 @@
+[15:07:57] EDL flash | FWDir=\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100 | xml=rawprogram0_split.xml | prog=xbl_s_devprg_ns.melf | serial=006
+[15:07:57] fw files complete
+[15:07:57] AutoEDL: adb -s 006 reboot edl
+[15:08:00] 等待 9008 口出现 (最多90s)
+[15:08:02] EDL port: COM13 (\\.\COM13)
+[15:08:02] step0: skipped (QSaharaServer opens port first)
+[15:08:02] step1: QSaharaServer load firehose (ID 13, xbl_s_devprg_ns.melf)
+Binary build date: Sep  7 2018 @ 20:25:00
+QSAHARASERVER CALLED LIKE THIS: 'D:\Workspace\haier\edl_flash\tools\QSaharaServer.ex'Current working dir: D:\Workspace\haier
+Sahara mappings:
+2: amss.mbn
+6: apps.mbn
+8: dsp1.mbn
+10: dbl.mbn
+11: osbl.mbn
+12: dsp2.mbn
+16: efs1.mbn
+17: efs2.mbn
+20: efs3.mbn
+21: sbl1.mbn
+22: sbl2.mbn
+23: rpm.mbn
+25: tz.mbn
+28: dsp3.mbn
+29: acdb.mbn
+30: wdt.mbn
+31: mba.mbn
+13: \\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_s_devprg_ns.melf
+
+15:08:02: Requested ID 13, file: "\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_s_devprg_ns.melf"
+
+15:08:02: 1584744 bytes transferred in 0.266000 seconds (5.6817MBps)
+
+
+
+15:08:02: File transferred successfully
+
+
+
+15:08:02: Sahara protocol completed
+
+[15:08:02] step1 done
+[15:08:02] step main xml (rawprogram0_split.xml): fh_loader --port=\\.\COM13 --sendxml=rawprogram0_split.xml --search_path=\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs
+
+Base Version: 19.06.10.18.44
+Binary build date: Jun 25 2019 @ 03:16:10
+Incremental Build version: 19.06.25.03.16.10
+
+15:08:02: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\Workspace\haier\edl_flash\tools\fh_loader.exe --port=\\.\COM13 --sendxml=rawprogram0_split.xml --search_path=\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs 
+************************************************
+
+15:08:02: INFO: Current working dir (cwd): D:\Workspace\haier\
+15:08:02: INFO: Showing network mappings to allow debugging
+15:08:02: INFO: 
+
+
+
+15:08:02: INFO: Trying to store 'rawprogram0_split.xml' in string table
+15:08:02: INFO: Looking for file 'rawprogram0_split.xml'
+15:08:02: INFO: User wants to talk to port '\\.\COM13'
+15:08:03: INFO: Took       0.73400000 seconds to open port
+15:08:03: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+15:08:03: INFO: Looking for file 'zero.bin'
+15:08:03: INFO: Looking for file 'super_1.img'
+15:08:03: INFO: Looking for file 'super_2.img'
+15:08:03: INFO: Looking for file 'super_3.img'
+15:08:03: INFO: Looking for file 'super_4.img'
+15:08:03: INFO: Looking for file 'super_5.img'
+15:08:03: INFO: Looking for file 'super_6.img'
+15:08:03: INFO: Looking for file 'super_7.img'
+15:08:03: INFO: Looking for file 'super_8.img'
+15:08:03: INFO: Looking for file 'vbmeta_system.img'
+15:08:03: INFO: Looking for file 'metadata_1.img'
+15:08:03: INFO: Looking for file 'metadata_2.img'
+15:08:03: INFO: Looking for file 'metadata_3.img'
+15:08:03: INFO: Looking for file 'metadata_4.img'
+15:08:03: INFO: Looking for file 'metadata_5.img'
+15:08:03: INFO: Looking for file 'vbmeta_system.img'
+15:08:03: INFO: Looking for file 'userdata_1.img'
+15:08:03: INFO: Looking for file 'userdata_2.img'
+15:08:03: INFO: Looking for file 'userdata_3.img'
+15:08:03: INFO: Looking for file 'userdata_4.img'
+15:08:03: INFO: Looking for file 'userdata_5.img'
+15:08:03: INFO: Looking for file 'userdata_6.img'
+15:08:03: INFO: Looking for file 'userdata_7.img'
+15:08:03: INFO: Looking for file 'userdata_8.img'
+15:08:03: INFO: Looking for file 'userdata_9.img'
+15:08:03: INFO: Looking for file 'userdata_10.img'
+15:08:03: INFO: Looking for file 'gpt_main0.bin'
+15:08:03: INFO: Looking for file 'gpt_backup0.bin'
+15:08:03: INFO: Looking for file 'xbl_s.melf'
+15:08:03: INFO: Looking for file 'xbl_config.elf'
+15:08:03: INFO: Looking for file 'multi_image_qti.mbn'
+15:08:03: INFO: Looking for file 'multi_image.mbn'
+15:08:03: INFO: Looking for file 'gpt_main1.bin'
+15:08:03: INFO: Looking for file 'gpt_backup1.bin'
+15:08:03: INFO: Looking for file 'xbl_s.melf'
+15:08:03: INFO: Looking for file 'xbl_config.elf'
+15:08:03: INFO: Looking for file 'multi_image_qti.mbn'
+15:08:03: INFO: Looking for file 'multi_image.mbn'
+15:08:03: INFO: Looking for file 'gpt_main2.bin'
+15:08:03: INFO: Looking for file 'gpt_backup2.bin'
+15:08:03: INFO: Looking for file 'zeros_5sectors.bin'
+15:08:03: INFO: Looking for file 'gpt_main3.bin'
+15:08:03: INFO: Looking for file 'gpt_backup3.bin'
+15:08:03: INFO: Looking for file 'uefi.elf'
+15:08:03: INFO: Looking for file 'aop.mbn'
+15:08:03: INFO: Looking for file 'aop_devcfg.mbn'
+15:08:03: INFO: Looking for file 'tz.mbn'
+15:08:04: INFO: Looking for file 'hypvm.mbn'
+15:08:04: INFO: Looking for file 'NON-HLOS.bin'
+15:08:04: INFO: Looking for file 'BTFM.bin'
+15:08:04: INFO: Looking for file 'abl.elf'
+15:08:04: INFO: Looking for file 'dspso.bin'
+15:08:04: INFO: Looking for file 'keymint.mbn'
+15:08:04: INFO: Looking for file 'boot.img'
+15:08:04: INFO: Looking for file 'devcfg.mbn'
+15:08:04: INFO: Looking for file 'qupv3fw.elf'
+15:08:04: INFO: Looking for file 'vbmeta.img'
+15:08:04: INFO: Looking for file 'dtbo.img'
+15:08:04: INFO: Looking for file 'uefi_sec.mbn'
+15:08:04: INFO: Looking for file 'imagefv.elf'
+15:08:04: INFO: Looking for file 'shrm.elf'
+15:08:04: INFO: Looking for file 'cpucp.elf'
+15:08:04: INFO: Looking for file 'featenabler.mbn'
+15:08:04: INFO: Looking for file 'vendor_boot.img'
+15:08:04: INFO: Looking for file 'recovery.img'
+15:08:04: INFO: Looking for file 'XblRamdump.elf'
+15:08:04: INFO: Looking for file 'init_boot.img'
+15:08:04: INFO: Looking for file 'uefi.elf'
+15:08:04: INFO: Looking for file 'aop.mbn'
+15:08:04: INFO: Looking for file 'aop_devcfg.mbn'
+15:08:04: INFO: Looking for file 'tz.mbn'
+15:08:04: INFO: Looking for file 'hypvm.mbn'
+15:08:04: INFO: Looking for file 'NON-HLOS.bin'
+15:08:04: INFO: Looking for file 'BTFM.bin'
+15:08:04: INFO: Looking for file 'abl.elf'
+15:08:04: INFO: Looking for file 'dspso.bin'
+15:08:04: INFO: Looking for file 'keymint.mbn'
+15:08:04: INFO: Looking for file 'boot.img'
+15:08:04: INFO: Looking for file 'devcfg.mbn'
+15:08:04: INFO: Looking for file 'qupv3fw.elf'
+15:08:04: INFO: Looking for file 'vbmeta.img'
+15:08:04: INFO: Looking for file 'dtbo.img'
+15:08:04: INFO: Looking for file 'uefi_sec.mbn'
+15:08:04: INFO: Looking for file 'imagefv.elf'
+15:08:04: INFO: Looking for file 'shrm.elf'
+15:08:04: INFO: Looking for file 'cpucp.elf'
+15:08:04: INFO: Looking for file 'featenabler.mbn'
+15:08:04: INFO: Looking for file 'vendor_boot.img'
+15:08:04: INFO: Looking for file 'recovery.img'
+15:08:04: INFO: Looking for file 'XblRamdump.elf'
+15:08:04: INFO: Looking for file 'init_boot.img'
+15:08:04: INFO: Looking for file 'tools.fv'
+15:08:04: INFO: Looking for file 'logfs_ufs_8mb.bin'
+15:08:04: INFO: Looking for file 'storsec.mbn'
+15:08:04: INFO: Looking for file 'sec.elf'
+15:08:04: INFO: Looking for file 'gpt_main4.bin'
+15:08:04: INFO: Looking for file 'gpt_backup4.bin'
+15:08:04: INFO: Looking for file 'gpt_main5.bin'
+15:08:04: INFO: Looking for file 'gpt_backup5.bin'
+15:08:04: INFO: 
+
+Total to be tansferd with <program> or <read> is 4.54 GB
+
+
+15:08:04: INFO: Sending <configure>
+
+15:08:04: INFO: TARGET SAID: 'INFO: Binary build date: Sep  4 2025 @ 08:04:00'
+
+15:08:04: INFO: TARGET SAID: 'INFO: Binary build date: Sep  4 2025 @ 08:04:00
+'
+
+15:08:04: INFO: TARGET SAID: 'INFO: Chip serial num (0x0) Chip ID (0x0)'
+
+15:08:04: INFO: TARGET SAID: 'INFO: Supported Functions (15):'
+
+15:08:04: INFO: TARGET SAID: 'INFO: program'
+
+15:08:04: INFO: TARGET SAID: 'INFO: read'
+
+15:08:04: INFO: TARGET SAID: 'INFO: nop'
+
+15:08:04: INFO: TARGET SAID: 'INFO: patch'
+
+15:08:04: INFO: TARGET SAID: 'INFO: configure'
+
+15:08:04: INFO: TARGET SAID: 'INFO: setbootablestoragedrive'
+
+15:08:04: INFO: TARGET SAID: 'INFO: erase'
+
+15:08:04: INFO: TARGET SAID: 'INFO: power'
+
+15:08:04: INFO: TARGET SAID: 'INFO: firmwarewrite'
+
+15:08:04: INFO: TARGET SAID: 'INFO: getstorageinfo'
+
+15:08:04: INFO: TARGET SAID: 'INFO: benchmark'
+
+15:08:04: INFO: TARGET SAID: 'INFO: emmc'
+
+15:08:04: INFO: TARGET SAID: 'INFO: ufs'
+
+15:08:04: INFO: TARGET SAID: 'INFO: fixgpt'
+
+15:08:04: INFO: TARGET SAID: 'INFO: getsha256digest'
+
+15:08:04: INFO: TARGET SAID: 'INFO: End of supported functions 15'
+
+15:08:04: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+15:08:04: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+15:08:04: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+15:08:04: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+15:08:04: INFO: In handleProgram('zero.bin')
+15:08:04: INFO: Looking for file 'zero.bin'
+
+
+	                         (_)            
+	__      ____ _ _ __ _ __  _ _ __   __ _ 
+	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+	 \ V  V / (_| | |  | | | | | | | | (_| |
+	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+	                                   __/ |
+	                                  |___/ 
+
+
+15:08:04: WARNING: User requested to ONLY program num_partition_sectors 256 of 'zero.bin' (1.00 MB).
+To load this file completely would require 384 sectors (1.50 MB) and SectorSizeInBytes=4096.
+This is usually a MISTAKE but there is a use case where you want to write only part of the image!
+
+15:08:04: INFO: =======================================================
+15:08:04: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\zero.bin'}
+15:08:04: INFO: {<program> (1.50 MB) 256 sectors needed at location 10760 on LUN 0}
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:04: INFO: Overall to target  0.032 seconds (31.25 MBps)
+15:08:04: INFO: {percent files transferred   0.02%}
+15:08:04: INFO: 
+15:08:04: INFO: =======================================================
+15:08:04: INFO: ==================== {SUCCESS} ========================
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: {percent files transferred   0.02%}
+15:08:04: INFO: In handleProgram('super_1.img')
+15:08:04: INFO: Looking for file 'super_1.img'
+15:08:04: INFO: =======================================================
+15:08:04: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_1.img'}
+15:08:04: INFO: {<program> (396.00 KB) 99 sectors needed at location 11272 on LUN 0}
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:04: INFO: Overall to target  0.015 seconds (25.78 MBps)
+15:08:04: INFO: {percent files transferred   0.03%}
+15:08:04: INFO: 
+15:08:04: INFO: =======================================================
+15:08:04: INFO: ==================== {SUCCESS} ========================
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: {percent files transferred   0.03%}
+15:08:04: INFO: In handleProgram('super_2.img')
+15:08:04: INFO: Looking for file 'super_2.img'
+15:08:04: INFO: =======================================================
+15:08:04: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_2.img'}
+15:08:04: INFO: {<program> (1.20 MB) 308 sectors needed at location 11528 on LUN 0}
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:04: INFO: Overall to target  0.047 seconds (25.60 MBps)
+15:08:04: INFO: {percent files transferred   0.06%}
+15:08:04: INFO: 
+15:08:04: INFO: =======================================================
+15:08:04: INFO: ==================== {SUCCESS} ========================
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: {percent files transferred   0.06%}
+15:08:04: INFO: In handleProgram('super_3.img')
+15:08:04: INFO: Looking for file 'super_3.img'
+15:08:04: INFO: =======================================================
+15:08:04: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_3.img'}
+15:08:04: INFO: {<program> (217.17 MB) 55596 sectors needed at location 12040 on LUN 0}
+15:08:04: INFO: =======================================================
+
+
+15:08:04: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:06: INFO: Overall to target  2.000 seconds (35.00 MBps)
+15:08:06: INFO: {percent files transferred   1.56%}
+15:08:08: INFO: Overall to target  4.000 seconds (38.50 MBps)
+15:08:08: INFO: {percent files transferred   3.37%}
+15:08:10: INFO: Overall to target  5.532 seconds (39.26 MBps)
+15:08:10: INFO: {percent files transferred   4.73%}
+15:08:10: INFO: 
+15:08:10: INFO: =======================================================
+15:08:10: INFO: ==================== {SUCCESS} ========================
+15:08:10: INFO: =======================================================
+
+
+15:08:10: INFO: {percent files transferred   4.73%}
+15:08:10: INFO: In handleProgram('super_4.img')
+15:08:10: INFO: Looking for file 'super_4.img'
+15:08:10: INFO: =======================================================
+15:08:10: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_4.img'}
+15:08:10: INFO: {<program> (1.09 GB) 286467 sectors needed at location 67848 on LUN 0}
+15:08:10: INFO: =======================================================
+
+
+15:08:10: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:12: INFO: Overall to target  2.015 seconds (41.69 MBps)
+15:08:12: INFO: {percent files transferred   6.54%}
+15:08:14: INFO: Overall to target  4.015 seconds (42.09 MBps)
+15:08:14: INFO: {percent files transferred   8.37%}
+15:08:16: INFO: Overall to target  6.015 seconds (42.23 MBps)
+15:08:16: INFO: {percent files transferred  10.20%}
+15:08:18: INFO: Overall to target  8.015 seconds (42.30 MBps)
+15:08:18: INFO: {percent files transferred  12.03%}
+15:08:20: INFO: Overall to target 10.015 seconds (42.24 MBps)
+15:08:20: INFO: {percent files transferred  13.84%}
+15:08:22: INFO: Overall to target 12.015 seconds (42.28 MBps)
+15:08:22: INFO: {percent files transferred  15.67%}
+15:08:24: INFO: Overall to target 14.015 seconds (42.24 MBps)
+15:08:24: INFO: {percent files transferred  17.47%}
+15:08:26: INFO: Overall to target 16.015 seconds (42.27 MBps)
+15:08:26: INFO: {percent files transferred  19.30%}
+15:08:28: INFO: Overall to target 18.031 seconds (42.26 MBps)
+15:08:28: INFO: {percent files transferred  21.13%}
+15:08:30: INFO: Overall to target 20.046 seconds (42.25 MBps)
+15:08:30: INFO: {percent files transferred  22.96%}
+15:08:32: INFO: Overall to target 22.046 seconds (42.28 MBps)
+15:08:32: INFO: {percent files transferred  24.79%}
+15:08:34: INFO: Overall to target 24.046 seconds (42.29 MBps)
+15:08:34: INFO: {percent files transferred  26.62%}
+15:08:36: INFO: Overall to target 26.046 seconds (42.31 MBps)
+15:08:36: INFO: {percent files transferred  28.45%}
+15:08:36: INFO: Overall to target 26.468 seconds (42.28 MBps)
+15:08:36: INFO: {percent files transferred  28.82%}
+15:08:36: INFO: 
+15:08:36: INFO: =======================================================
+15:08:36: INFO: ==================== {SUCCESS} ========================
+15:08:36: INFO: =======================================================
+
+
+15:08:36: INFO: {percent files transferred  28.82%}
+15:08:36: INFO: In handleProgram('super_5.img')
+15:08:36: INFO: Looking for file 'super_5.img'
+15:08:36: INFO: =======================================================
+15:08:36: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_5.img'}
+15:08:36: INFO: {<program> (456.00 KB) 114 sectors needed at location 354568 on LUN 0}
+15:08:36: INFO: =======================================================
+
+
+15:08:36: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:36: INFO: Overall to target  0.015 seconds (29.69 MBps)
+15:08:36: INFO: {percent files transferred  28.83%}
+15:08:36: INFO: 
+15:08:36: INFO: =======================================================
+15:08:36: INFO: ==================== {SUCCESS} ========================
+15:08:36: INFO: =======================================================
+
+
+15:08:36: INFO: {percent files transferred  28.83%}
+15:08:36: INFO: In handleProgram('super_6.img')
+15:08:36: INFO: Looking for file 'super_6.img'
+15:08:36: INFO: =======================================================
+15:08:36: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_6.img'}
+15:08:36: INFO: {<program> (458.15 MB) 117287 sectors needed at location 354824 on LUN 0}
+15:08:36: INFO: =======================================================
+
+
+15:08:36: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:38: INFO: Overall to target  2.000 seconds (42.00 MBps)
+15:08:38: INFO: {percent files transferred  30.64%}
+15:08:40: INFO: Overall to target  4.000 seconds (42.25 MBps)
+15:08:40: INFO: {percent files transferred  32.47%}
+15:08:42: INFO: Overall to target  6.015 seconds (42.23 MBps)
+15:08:42: INFO: {percent files transferred  34.30%}
+15:08:44: INFO: Overall to target  8.015 seconds (42.30 MBps)
+15:08:44: INFO: {percent files transferred  36.13%}
+15:08:46: INFO: Overall to target 10.015 seconds (42.34 MBps)
+15:08:46: INFO: {percent files transferred  37.96%}
+15:08:47: INFO: Overall to target 10.844 seconds (42.25 MBps)
+15:08:47: INFO: {percent files transferred  38.69%}
+15:08:47: INFO: 
+15:08:47: INFO: =======================================================
+15:08:47: INFO: ==================== {SUCCESS} ========================
+15:08:47: INFO: =======================================================
+
+
+15:08:47: INFO: {percent files transferred  38.69%}
+15:08:47: INFO: In handleProgram('super_7.img')
+15:08:47: INFO: Looking for file 'super_7.img'
+15:08:47: INFO: =======================================================
+15:08:47: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_7.img'}
+15:08:47: INFO: {<program> (1.52 GB) 399205 sectors needed at location 472328 on LUN 0}
+15:08:47: INFO: =======================================================
+
+
+15:08:47: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:08:49: INFO: Overall to target  2.000 seconds (41.50 MBps)
+15:08:49: INFO: {percent files transferred  40.48%}
+15:08:51: INFO: Overall to target  4.000 seconds (41.75 MBps)
+15:08:51: INFO: {percent files transferred  42.29%}
+15:08:53: INFO: Overall to target  6.156 seconds (35.74 MBps)
+15:08:53: INFO: {percent files transferred  43.43%}
+15:08:55: INFO: Overall to target  8.281 seconds (31.40 MBps)
+15:08:55: INFO: {percent files transferred  44.29%}
+15:08:57: INFO: FILE ACCESS SLOW!!  300.00 MB in  3.250 seconds (  92.31 MBps) --- Overall to target 10.281 seconds (29.18 MBps)
+15:08:57: INFO: {percent files transferred  45.15%}
+15:09:00: INFO: FILE ACCESS SLOW!!  345.00 MB in  4.359 seconds (  79.15 MBps) --- Overall to target 12.406 seconds (27.81 MBps)
+15:09:00: INFO: {percent files transferred  46.12%}
+15:09:02: INFO: FILE ACCESS SLOW!!  387.00 MB in  5.343 seconds (  72.43 MBps) --- Overall to target 14.406 seconds (26.86 MBps)
+15:09:02: INFO: {percent files transferred  47.02%}
+15:09:04: INFO: FILE ACCESS SLOW!!  432.00 MB in  6.313 seconds (  68.43 MBps) --- Overall to target 16.422 seconds (26.31 MBps)
+15:09:04: INFO: {percent files transferred  47.99%}
+15:09:06: INFO: FILE ACCESS SLOW!!  470.00 MB in  7.563 seconds (  62.14 MBps) --- Overall to target 18.515 seconds (25.38 MBps)
+15:09:06: INFO: {percent files transferred  48.81%}
+15:09:08: INFO: FILE ACCESS SLOW!!  505.00 MB in  8.766 seconds (  57.61 MBps) --- Overall to target 20.547 seconds (24.58 MBps)
+15:09:08: INFO: {percent files transferred  49.56%}
+15:09:10: INFO: FILE ACCESS SLOW!!  547.00 MB in  9.827 seconds (  55.66 MBps) --- Overall to target 22.547 seconds (24.26 MBps)
+15:09:10: INFO: {percent files transferred  50.47%}
+15:09:12: INFO: FILE ACCESS SLOW!!  584.00 MB in 10.984 seconds (  53.17 MBps) --- Overall to target 24.547 seconds (23.79 MBps)
+15:09:12: INFO: {percent files transferred  51.26%}
+15:09:14: INFO: FILE ACCESS SLOW!!  623.00 MB in 12.078 seconds (  51.58 MBps) --- Overall to target 26.547 seconds (23.47 MBps)
+15:09:14: INFO: {percent files transferred  52.10%}
+15:09:16: INFO: FILE ACCESS SLOW!!  660.00 MB in 13.297 seconds (  49.64 MBps) --- Overall to target 28.656 seconds (23.03 MBps)
+15:09:16: INFO: {percent files transferred  52.90%}
+15:09:18: INFO: FILE ACCESS SLOW!!  701.00 MB in 14.313 seconds (  48.98 MBps) --- Overall to target 30.656 seconds (22.87 MBps)
+15:09:18: INFO: {percent files transferred  53.78%}
+15:09:20: INFO: FILE ACCESS SLOW!!  741.00 MB in 15.359 seconds (  48.25 MBps) --- Overall to target 32.656 seconds (22.69 MBps)
+15:09:20: INFO: {percent files transferred  54.64%}
+15:09:22: INFO: FILE ACCESS SLOW!!  783.00 MB in 16.313 seconds (  48.00 MBps) --- Overall to target 34.656 seconds (22.59 MBps)
+15:09:22: INFO: {percent files transferred  55.55%}
+15:09:24: INFO: FILE ACCESS SLOW!!  822.00 MB in 17.392 seconds (  47.26 MBps) --- Overall to target 36.672 seconds (22.41 MBps)
+15:09:24: INFO: {percent files transferred  56.39%}
+15:09:26: INFO: FILE ACCESS SLOW!!  863.00 MB in 18.423 seconds (  46.84 MBps) --- Overall to target 38.672 seconds (22.32 MBps)
+15:09:26: INFO: {percent files transferred  57.27%}
+15:09:28: INFO: FILE ACCESS SLOW!!  901.00 MB in 19.515 seconds (  46.17 MBps) --- Overall to target 40.672 seconds (22.15 MBps)
+15:09:28: INFO: {percent files transferred  58.09%}
+15:09:30: INFO: FILE ACCESS SLOW!!  944.00 MB in 20.484 seconds (  46.08 MBps) --- Overall to target 42.672 seconds (22.12 MBps)
+15:09:30: INFO: {percent files transferred  59.01%}
+15:09:32: INFO: FILE ACCESS SLOW!!  980.00 MB in 21.735 seconds (  45.09 MBps) --- Overall to target 44.797 seconds (21.88 MBps)
+15:09:32: INFO: {percent files transferred  59.79%}
+15:09:34: INFO: FILE ACCESS SLOW!! 1019.00 MB in 22.830 seconds (  44.63 MBps) --- Overall to target 46.812 seconds (21.77 MBps)
+15:09:34: INFO: {percent files transferred  60.63%}
+15:09:36: INFO: FILE ACCESS SLOW!!    1.03 GB in 23.956 seconds (  44.12 MBps) --- Overall to target 48.812 seconds (21.65 MBps)
+15:09:36: INFO: {percent files transferred  61.44%}
+15:09:38: INFO: FILE ACCESS SLOW!!    1.06 GB in 25.159 seconds (  43.32 MBps) --- Overall to target 50.812 seconds (21.45 MBps)
+15:09:38: INFO: {percent files transferred  62.15%}
+15:09:40: INFO: FILE ACCESS SLOW!!    1.10 GB in 26.363 seconds (  42.86 MBps) --- Overall to target 52.984 seconds (21.33 MBps)
+15:09:40: INFO: {percent files transferred  63.02%}
+15:09:42: INFO: FILE ACCESS SLOW!!    1.14 GB in 27.456 seconds (  42.61 MBps) --- Overall to target 54.984 seconds (21.28 MBps)
+15:09:42: INFO: {percent files transferred  63.88%}
+15:09:44: INFO: FILE ACCESS SLOW!!    1.18 GB in 28.564 seconds (  42.36 MBps) --- Overall to target 57.047 seconds (21.21 MBps)
+15:09:44: INFO: {percent files transferred  64.74%}
+15:09:46: INFO: FILE ACCESS SLOW!!    1.22 GB in 29.800 seconds (  41.95 MBps) --- Overall to target 59.187 seconds (21.12 MBps)
+15:09:46: INFO: {percent files transferred  65.60%}
+15:09:48: INFO: FILE ACCESS SLOW!!    1.26 GB in 30.878 seconds (  41.78 MBps) --- Overall to target 61.219 seconds (21.07 MBps)
+15:09:48: INFO: {percent files transferred  66.46%}
+15:09:50: INFO: FILE ACCESS SLOW!!    1.30 GB in 31.941 seconds (  41.67 MBps) --- Overall to target 63.234 seconds (21.05 MBps)
+15:09:50: INFO: {percent files transferred  67.34%}
+15:09:52: INFO: FILE ACCESS SLOW!!    1.34 GB in 33.035 seconds (  41.47 MBps) --- Overall to target 65.265 seconds (20.99 MBps)
+15:09:52: INFO: {percent files transferred  68.18%}
+15:09:54: INFO: FILE ACCESS SLOW!!    1.38 GB in 34.114 seconds (  41.30 MBps) --- Overall to target 67.281 seconds (20.94 MBps)
+15:09:54: INFO: {percent files transferred  69.02%}
+15:09:56: INFO: FILE ACCESS SLOW!!    1.41 GB in 35.316 seconds (  40.89 MBps) --- Overall to target 69.297 seconds (20.84 MBps)
+15:09:56: INFO: {percent files transferred  69.77%}
+15:09:58: INFO: FILE ACCESS SLOW!!    1.45 GB in 36.441 seconds (  40.64 MBps) --- Overall to target 71.312 seconds (20.77 MBps)
+15:09:58: INFO: {percent files transferred  70.57%}
+15:10:00: INFO: FILE ACCESS SLOW!!    1.48 GB in 37.596 seconds (  40.40 MBps) --- Overall to target 73.328 seconds (20.72 MBps)
+15:10:00: INFO: {percent files transferred  71.39%}
+15:10:02: INFO: FILE ACCESS SLOW!!    1.52 GB in 38.705 seconds (  40.25 MBps) --- Overall to target 75.328 seconds (20.68 MBps)
+15:10:02: INFO: {percent files transferred  72.23%}
+15:10:03: INFO: Overall to target 75.390 seconds (20.68 MBps)
+15:10:03: INFO: {percent files transferred  72.26%}
+15:10:03: INFO: 
+15:10:03: INFO: =======================================================
+15:10:03: INFO: ==================== {SUCCESS} ========================
+15:10:03: INFO: =======================================================
+
+
+15:10:03: INFO: {percent files transferred  72.26%}
+15:10:03: INFO: In handleProgram('super_8.img')
+15:10:03: INFO: Looking for file 'super_8.img'
+15:10:03: INFO: =======================================================
+15:10:03: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_8.img'}
+15:10:03: INFO: {<program> (131.65 MB) 33702 sectors needed at location 871688 on LUN 0}
+15:10:03: INFO: =======================================================
+
+
+15:10:03: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:05: INFO: Overall to target  2.000 seconds (31.00 MBps)
+15:10:05: INFO: {percent files transferred  73.59%}
+15:10:06: INFO: Overall to target  3.640 seconds (36.17 MBps)
+15:10:06: INFO: {percent files transferred  75.09%}
+15:10:06: INFO: 
+15:10:06: INFO: =======================================================
+15:10:06: INFO: ==================== {SUCCESS} ========================
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: {percent files transferred  75.09%}
+15:10:06: INFO: In handleProgram('vbmeta_system.img')
+15:10:06: INFO: Looking for file 'vbmeta_system.img'
+15:10:06: INFO: =======================================================
+15:10:06: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta_system.img'}
+15:10:06: INFO: {<program> (4.00 KB) 1 sectors needed at location 1584136 on LUN 0}
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:06: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:06: INFO: 
+15:10:06: INFO: =======================================================
+15:10:06: INFO: ==================== {SUCCESS} ========================
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: {percent files transferred  75.09%}
+15:10:06: INFO: In handleProgram('metadata_1.img')
+15:10:06: INFO: Looking for file 'metadata_1.img'
+15:10:06: INFO: =======================================================
+15:10:06: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_1.img'}
+15:10:06: INFO: {<program> (8.00 KB) 2 sectors needed at location 1584168 on LUN 0}
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:06: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:06: INFO: 
+15:10:06: INFO: =======================================================
+15:10:06: INFO: ==================== {SUCCESS} ========================
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: {percent files transferred  75.09%}
+15:10:06: INFO: In handleProgram('metadata_2.img')
+15:10:06: INFO: Looking for file 'metadata_2.img'
+15:10:06: INFO: =======================================================
+15:10:06: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_2.img'}
+15:10:06: INFO: {<program> (32.00 KB) 8 sectors needed at location 1584680 on LUN 0}
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:06: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:06: INFO: 
+15:10:06: INFO: =======================================================
+15:10:06: INFO: ==================== {SUCCESS} ========================
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: {percent files transferred  75.09%}
+15:10:06: INFO: In handleProgram('metadata_3.img')
+15:10:06: INFO: Looking for file 'metadata_3.img'
+15:10:06: INFO: =======================================================
+15:10:06: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_3.img'}
+15:10:06: INFO: {<program> (10.05 MB) 2573 sectors needed at location 1585191 on LUN 0}
+15:10:06: INFO: =======================================================
+
+
+15:10:06: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Overall to target  0.266 seconds (37.78 MBps)
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('metadata_4.img')
+15:10:07: INFO: Looking for file 'metadata_4.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_4.img'}
+15:10:07: INFO: {<program> (16.00 KB) 4 sectors needed at location 1588264 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('metadata_5.img')
+15:10:07: INFO: Looking for file 'metadata_5.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_5.img'}
+15:10:07: INFO: {<program> (28.00 KB) 7 sectors needed at location 1589800 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('vbmeta_system.img')
+15:10:07: INFO: Looking for file 'vbmeta_system.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta_system.img'}
+15:10:07: INFO: {<program> (4.00 KB) 1 sectors needed at location 1584152 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('userdata_1.img')
+15:10:07: INFO: Looking for file 'userdata_1.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_1.img'}
+15:10:07: INFO: {<program> (8.00 KB) 2 sectors needed at location 4797480 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Overall to target  0.016 seconds (500.00 KBps)
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('userdata_2.img')
+15:10:07: INFO: Looking for file 'userdata_2.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_2.img'}
+15:10:07: INFO: {<program> (32.00 KB) 8 sectors needed at location 4797992 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:07: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:07: INFO: 
+15:10:07: INFO: =======================================================
+15:10:07: INFO: ==================== {SUCCESS} ========================
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: {percent files transferred  75.31%}
+15:10:07: INFO: In handleProgram('userdata_3.img')
+15:10:07: INFO: Looking for file 'userdata_3.img'
+15:10:07: INFO: =======================================================
+15:10:07: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_3.img'}
+15:10:07: INFO: {<program> (210.04 MB) 53771 sectors needed at location 4798502 on LUN 0}
+15:10:07: INFO: =======================================================
+
+
+15:10:07: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:09: INFO: Overall to target  2.000 seconds (42.50 MBps)
+15:10:09: INFO: {percent files transferred  77.14%}
+15:10:11: INFO: Overall to target  4.000 seconds (43.00 MBps)
+15:10:11: INFO: {percent files transferred  79.01%}
+15:10:12: INFO: Overall to target  4.890 seconds (42.95 MBps)
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_4.img')
+15:10:12: INFO: Looking for file 'userdata_4.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_4.img'}
+15:10:12: INFO: {<program> (4.00 KB) 1 sectors needed at location 4857985 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_5.img')
+15:10:12: INFO: Looking for file 'userdata_5.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_5.img'}
+15:10:12: INFO: {<program> (4.00 KB) 1 sectors needed at location 4863707 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_6.img')
+15:10:12: INFO: Looking for file 'userdata_6.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_6.img'}
+15:10:12: INFO: {<program> (16.00 KB) 4 sectors needed at location 4875304 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_7.img')
+15:10:12: INFO: Looking for file 'userdata_7.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_7.img'}
+15:10:12: INFO: {<program> (28.00 KB) 7 sectors needed at location 4876840 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_8.img')
+15:10:12: INFO: Looking for file 'userdata_8.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_8.img'}
+15:10:12: INFO: {<program> (40.00 KB) 10 sectors needed at location 4877352 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.83%}
+15:10:12: INFO: In handleProgram('userdata_9.img')
+15:10:12: INFO: Looking for file 'userdata_9.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_9.img'}
+15:10:12: INFO: {<program> (68.00 KB) 17 sectors needed at location 4877864 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.84%}
+15:10:12: INFO: In handleProgram('userdata_10.img')
+15:10:12: INFO: Looking for file 'userdata_10.img'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_10.img'}
+15:10:12: INFO: {<program> (852.00 KB) 213 sectors needed at location 4878376 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.031 seconds (26.84 MBps)
+15:10:12: INFO: {percent files transferred  79.85%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.85%}
+15:10:12: INFO: In handleProgram('gpt_main0.bin')
+15:10:12: INFO: Looking for file 'gpt_main0.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main0.bin'}
+15:10:12: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.85%}
+15:10:12: INFO: In handleProgram('gpt_backup0.bin')
+15:10:12: INFO: Looking for file 'gpt_backup0.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup0.bin'}
+15:10:12: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 0}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.86%}
+15:10:12: INFO: In handleProgram('xbl_s.melf')
+15:10:12: INFO: Looking for file 'xbl_s.melf'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_s.melf'}
+15:10:12: INFO: {<program> (1.15 MB) 294 sectors needed at location 6 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.047 seconds (24.43 MBps)
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: In handleProgram('xbl_config.elf')
+15:10:12: INFO: Looking for file 'xbl_config.elf'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_config.elf'}
+15:10:12: INFO: {<program> (180.04 KB) 46 sectors needed at location 902 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: In handleProgram('multi_image_qti.mbn')
+15:10:12: INFO: Looking for file 'multi_image_qti.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image_qti.mbn'}
+15:10:12: INFO: {<program> (11.80 KB) 3 sectors needed at location 977 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: In handleProgram('multi_image.mbn')
+15:10:12: INFO: Looking for file 'multi_image.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image.mbn'}
+15:10:12: INFO: {<program> (11.80 KB) 3 sectors needed at location 985 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: In handleProgram('gpt_main1.bin')
+15:10:12: INFO: Looking for file 'gpt_main1.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main1.bin'}
+15:10:12: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.88%}
+15:10:12: INFO: In handleProgram('gpt_backup1.bin')
+15:10:12: INFO: Looking for file 'gpt_backup1.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup1.bin'}
+15:10:12: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 1}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.89%}
+15:10:12: INFO: In handleProgram('xbl_s.melf')
+15:10:12: INFO: Looking for file 'xbl_s.melf'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_s.melf'}
+15:10:12: INFO: {<program> (1.15 MB) 294 sectors needed at location 6 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.031 seconds (37.05 MBps)
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('xbl_config.elf')
+15:10:12: INFO: Looking for file 'xbl_config.elf'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_config.elf'}
+15:10:12: INFO: {<program> (180.04 KB) 46 sectors needed at location 902 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('multi_image_qti.mbn')
+15:10:12: INFO: Looking for file 'multi_image_qti.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image_qti.mbn'}
+15:10:12: INFO: {<program> (11.80 KB) 3 sectors needed at location 977 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('multi_image.mbn')
+15:10:12: INFO: Looking for file 'multi_image.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image.mbn'}
+15:10:12: INFO: {<program> (11.80 KB) 3 sectors needed at location 985 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('gpt_main2.bin')
+15:10:12: INFO: Looking for file 'gpt_main2.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main2.bin'}
+15:10:12: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.015 seconds (1.56 MBps)
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('gpt_backup2.bin')
+15:10:12: INFO: Looking for file 'gpt_backup2.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup2.bin'}
+15:10:12: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 2}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.91%}
+15:10:12: INFO: In handleProgram('zeros_5sectors.bin')
+15:10:12: INFO: Looking for file 'zeros_5sectors.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\zeros_5sectors.bin'}
+15:10:12: INFO: {<program> (20.00 KB) 5 sectors needed at location 64 on LUN 3}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.92%}
+15:10:12: INFO: In handleProgram('gpt_main3.bin')
+15:10:12: INFO: Looking for file 'gpt_main3.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main3.bin'}
+15:10:12: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 3}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.92%}
+15:10:12: INFO: In handleProgram('gpt_backup3.bin')
+15:10:12: INFO: Looking for file 'gpt_backup3.bin'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup3.bin'}
+15:10:12: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 3}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.92%}
+15:10:12: INFO: In handleProgram('uefi.elf')
+15:10:12: INFO: Looking for file 'uefi.elf'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi.elf'}
+15:10:12: INFO: {<program> (2.62 MB) 670 sectors needed at location 6 on LUN 4}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.062 seconds (42.21 MBps)
+15:10:12: INFO: {percent files transferred  79.97%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.97%}
+15:10:12: INFO: In handleProgram('aop.mbn')
+15:10:12: INFO: Looking for file 'aop.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop.mbn'}
+15:10:12: INFO: {<program> (272.17 KB) 69 sectors needed at location 1286 on LUN 4}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.98%}
+15:10:12: INFO: In handleProgram('aop_devcfg.mbn')
+15:10:12: INFO: Looking for file 'aop_devcfg.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop_devcfg.mbn'}
+15:10:12: INFO: {<program> (15.85 KB) 4 sectors needed at location 1414 on LUN 4}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  79.98%}
+15:10:12: INFO: In handleProgram('tz.mbn')
+15:10:12: INFO: Looking for file 'tz.mbn'
+15:10:12: INFO: =======================================================
+15:10:12: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\tz.mbn'}
+15:10:12: INFO: {<program> (3.89 MB) 998 sectors needed at location 1542 on LUN 4}
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:12: INFO: Overall to target  0.078 seconds (49.98 MBps)
+15:10:12: INFO: {percent files transferred  80.06%}
+15:10:12: INFO: 
+15:10:12: INFO: =======================================================
+15:10:12: INFO: ==================== {SUCCESS} ========================
+15:10:12: INFO: =======================================================
+
+
+15:10:12: INFO: {percent files transferred  80.06%}
+15:10:12: INFO: In handleProgram('hypvm.mbn')
+15:10:12: INFO: Looking for file 'hypvm.mbn'
+15:10:12: INFO: =======================================================
+15:10:13: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\hypvm.mbn'}
+15:10:13: INFO: {<program> (1.58 MB) 405 sectors needed at location 2566 on LUN 4}
+15:10:13: INFO: =======================================================
+
+
+15:10:13: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:13: INFO: Overall to target  0.047 seconds (33.66 MBps)
+15:10:13: INFO: {percent files transferred  80.10%}
+15:10:13: INFO: 
+15:10:13: INFO: =======================================================
+15:10:13: INFO: ==================== {SUCCESS} ========================
+15:10:13: INFO: =======================================================
+
+
+15:10:13: INFO: {percent files transferred  80.10%}
+15:10:13: INFO: In handleProgram('NON-HLOS.bin')
+15:10:13: INFO: Looking for file 'NON-HLOS.bin'
+15:10:13: INFO: =======================================================
+15:10:13: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\NON-HLOS.bin'}
+15:10:13: INFO: {<program> (76.23 MB) 19515 sectors needed at location 4614 on LUN 4}
+15:10:13: INFO: =======================================================
+
+
+15:10:13: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:14: INFO: Overall to target  1.859 seconds (41.01 MBps)
+15:10:14: INFO: {percent files transferred  81.74%}
+15:10:14: INFO: 
+15:10:14: INFO: =======================================================
+15:10:14: INFO: ==================== {SUCCESS} ========================
+15:10:14: INFO: =======================================================
+
+
+15:10:14: INFO: {percent files transferred  81.74%}
+15:10:14: INFO: In handleProgram('BTFM.bin')
+15:10:14: INFO: Looking for file 'BTFM.bin'
+15:10:14: INFO: =======================================================
+15:10:14: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\BTFM.bin'}
+15:10:14: INFO: {<program> (1.39 MB) 355 sectors needed at location 86534 on LUN 4}
+15:10:14: INFO: =======================================================
+
+
+15:10:14: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:15: INFO: Overall to target  0.062 seconds (22.37 MBps)
+15:10:15: INFO: {percent files transferred  81.77%}
+15:10:15: INFO: 
+15:10:15: INFO: =======================================================
+15:10:15: INFO: ==================== {SUCCESS} ========================
+15:10:15: INFO: =======================================================
+
+
+15:10:15: INFO: {percent files transferred  81.77%}
+15:10:15: INFO: In handleProgram('abl.elf')
+15:10:15: INFO: Looking for file 'abl.elf'
+15:10:15: INFO: =======================================================
+15:10:15: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\abl.elf'}
+15:10:15: INFO: {<program> (207.80 KB) 52 sectors needed at location 97286 on LUN 4}
+15:10:15: INFO: =======================================================
+
+
+15:10:15: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:15: INFO: Overall to target  0.015 seconds (13.54 MBps)
+15:10:15: INFO: {percent files transferred  81.77%}
+15:10:15: INFO: 
+15:10:15: INFO: =======================================================
+15:10:15: INFO: ==================== {SUCCESS} ========================
+15:10:15: INFO: =======================================================
+
+
+15:10:15: INFO: {percent files transferred  81.77%}
+15:10:15: INFO: In handleProgram('dspso.bin')
+15:10:15: INFO: Looking for file 'dspso.bin'
+15:10:15: INFO: =======================================================
+15:10:15: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dspso.bin'}
+15:10:15: INFO: {<program> (64.00 MB) 16384 sectors needed at location 97542 on LUN 4}
+15:10:15: INFO: =======================================================
+
+
+15:10:15: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:16: INFO: Overall to target  1.578 seconds (40.56 MBps)
+15:10:16: INFO: {percent files transferred  83.15%}
+15:10:16: INFO: 
+15:10:16: INFO: =======================================================
+15:10:16: INFO: ==================== {SUCCESS} ========================
+15:10:16: INFO: =======================================================
+
+
+15:10:16: INFO: {percent files transferred  83.15%}
+15:10:16: INFO: In handleProgram('keymint.mbn')
+15:10:16: INFO: Looking for file 'keymint.mbn'
+15:10:16: INFO: =======================================================
+15:10:16: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\keymint.mbn'}
+15:10:16: INFO: {<program> (400.09 KB) 101 sectors needed at location 113926 on LUN 4}
+15:10:16: INFO: =======================================================
+
+
+15:10:16: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:16: INFO: Overall to target  0.016 seconds (24.66 MBps)
+15:10:16: INFO: {percent files transferred  83.16%}
+15:10:16: INFO: 
+15:10:16: INFO: =======================================================
+15:10:16: INFO: ==================== {SUCCESS} ========================
+15:10:16: INFO: =======================================================
+
+
+15:10:16: INFO: {percent files transferred  83.16%}
+15:10:16: INFO: In handleProgram('boot.img')
+15:10:16: INFO: Looking for file 'boot.img'
+15:10:16: INFO: =======================================================
+15:10:16: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\boot.img'}
+15:10:16: INFO: {<program> (96.00 MB) 24576 sectors needed at location 114054 on LUN 4}
+15:10:16: INFO: =======================================================
+
+
+15:10:16: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:18: INFO: Overall to target  2.000 seconds (42.00 MBps)
+15:10:18: INFO: {percent files transferred  84.97%}
+15:10:18: INFO: Overall to target  2.281 seconds (42.09 MBps)
+15:10:18: INFO: {percent files transferred  85.22%}
+15:10:18: INFO: 
+15:10:18: INFO: =======================================================
+15:10:18: INFO: ==================== {SUCCESS} ========================
+15:10:18: INFO: =======================================================
+
+
+15:10:18: INFO: {percent files transferred  85.22%}
+15:10:18: INFO: In handleProgram('devcfg.mbn')
+15:10:18: INFO: Looking for file 'devcfg.mbn'
+15:10:18: INFO: =======================================================
+15:10:18: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\devcfg.mbn'}
+15:10:18: INFO: {<program> (55.85 KB) 14 sectors needed at location 138630 on LUN 4}
+15:10:18: INFO: =======================================================
+
+
+15:10:18: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:18: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:18: INFO: 
+15:10:18: INFO: =======================================================
+15:10:18: INFO: ==================== {SUCCESS} ========================
+15:10:18: INFO: =======================================================
+
+
+15:10:18: INFO: {percent files transferred  85.23%}
+15:10:18: INFO: In handleProgram('qupv3fw.elf')
+15:10:18: INFO: Looking for file 'qupv3fw.elf'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\qupv3fw.elf'}
+15:10:19: INFO: {<program> (52.27 KB) 14 sectors needed at location 138662 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.23%}
+15:10:19: INFO: In handleProgram('vbmeta.img')
+15:10:19: INFO: Looking for file 'vbmeta.img'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta.img'}
+15:10:19: INFO: {<program> (8.00 KB) 2 sectors needed at location 138682 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.23%}
+15:10:19: INFO: In handleProgram('dtbo.img')
+15:10:19: INFO: Looking for file 'dtbo.img'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dtbo.img'}
+15:10:19: INFO: {<program> (14.00 MB) 3584 sectors needed at location 138698 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Overall to target  0.360 seconds (38.89 MBps)
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: In handleProgram('uefi_sec.mbn')
+15:10:19: INFO: Looking for file 'uefi_sec.mbn'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi_sec.mbn'}
+15:10:19: INFO: {<program> (172.09 KB) 44 sectors needed at location 144842 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Overall to target  0.016 seconds (10.74 MBps)
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: In handleProgram('imagefv.elf')
+15:10:19: INFO: Looking for file 'imagefv.elf'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\imagefv.elf'}
+15:10:19: INFO: {<program> (15.80 KB) 4 sectors needed at location 145354 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: In handleProgram('shrm.elf')
+15:10:19: INFO: Looking for file 'shrm.elf'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\shrm.elf'}
+15:10:19: INFO: {<program> (62.73 KB) 16 sectors needed at location 145866 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.53%}
+15:10:19: INFO: In handleProgram('cpucp.elf')
+15:10:19: INFO: Looking for file 'cpucp.elf'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\cpucp.elf'}
+15:10:19: INFO: {<program> (183.16 KB) 46 sectors needed at location 283398 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.54%}
+15:10:19: INFO: In handleProgram('featenabler.mbn')
+15:10:19: INFO: Looking for file 'featenabler.mbn'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\featenabler.mbn'}
+15:10:19: INFO: {<program> (94.97 KB) 24 sectors needed at location 283654 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:19: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:19: INFO: 
+15:10:19: INFO: =======================================================
+15:10:19: INFO: ==================== {SUCCESS} ========================
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: {percent files transferred  85.54%}
+15:10:19: INFO: In handleProgram('vendor_boot.img')
+15:10:19: INFO: Looking for file 'vendor_boot.img'
+15:10:19: INFO: =======================================================
+15:10:19: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vendor_boot.img'}
+15:10:19: INFO: {<program> (96.00 MB) 24576 sectors needed at location 283686 on LUN 4}
+15:10:19: INFO: =======================================================
+
+
+15:10:19: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:21: INFO: Overall to target  2.000 seconds (42.50 MBps)
+15:10:21: INFO: {percent files transferred  87.37%}
+15:10:21: INFO: Overall to target  2.281 seconds (42.09 MBps)
+15:10:21: INFO: {percent files transferred  87.61%}
+15:10:21: INFO: 
+15:10:21: INFO: =======================================================
+15:10:21: INFO: ==================== {SUCCESS} ========================
+15:10:21: INFO: =======================================================
+
+
+15:10:21: INFO: {percent files transferred  87.61%}
+15:10:21: INFO: In handleProgram('recovery.img')
+15:10:21: INFO: Looking for file 'recovery.img'
+15:10:21: INFO: =======================================================
+15:10:21: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\recovery.img'}
+15:10:21: INFO: {<program> (100.00 MB) 25600 sectors needed at location 316006 on LUN 4}
+15:10:21: INFO: =======================================================
+
+
+15:10:21: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:23: INFO: Overall to target  2.000 seconds (42.00 MBps)
+15:10:23: INFO: {percent files transferred  89.41%}
+15:10:24: INFO: Overall to target  2.391 seconds (41.82 MBps)
+15:10:24: INFO: {percent files transferred  89.76%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  89.76%}
+15:10:24: INFO: In handleProgram('XblRamdump.elf')
+15:10:24: INFO: Looking for file 'XblRamdump.elf'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\XblRamdump.elf'}
+15:10:24: INFO: {<program> (787.90 KB) 197 sectors needed at location 341606 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Overall to target  0.016 seconds (48.10 MBps)
+15:10:24: INFO: {percent files transferred  89.77%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  89.77%}
+15:10:24: INFO: In handleProgram('init_boot.img')
+15:10:24: INFO: Looking for file 'init_boot.img'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\init_boot.img'}
+15:10:24: INFO: {<program> (8.00 MB) 2048 sectors needed at location 342131 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Overall to target  0.235 seconds (34.04 MBps)
+15:10:24: INFO: {percent files transferred  89.95%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  89.95%}
+15:10:24: INFO: In handleProgram('uefi.elf')
+15:10:24: INFO: Looking for file 'uefi.elf'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi.elf'}
+15:10:24: INFO: {<program> (2.62 MB) 670 sectors needed at location 344179 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Overall to target  0.062 seconds (42.21 MBps)
+15:10:24: INFO: {percent files transferred  90.00%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  90.00%}
+15:10:24: INFO: In handleProgram('aop.mbn')
+15:10:24: INFO: Looking for file 'aop.mbn'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop.mbn'}
+15:10:24: INFO: {<program> (272.17 KB) 69 sectors needed at location 345459 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  90.01%}
+15:10:24: INFO: In handleProgram('aop_devcfg.mbn')
+15:10:24: INFO: Looking for file 'aop_devcfg.mbn'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop_devcfg.mbn'}
+15:10:24: INFO: {<program> (15.85 KB) 4 sectors needed at location 345587 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  90.01%}
+15:10:24: INFO: In handleProgram('tz.mbn')
+15:10:24: INFO: Looking for file 'tz.mbn'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\tz.mbn'}
+15:10:24: INFO: {<program> (3.89 MB) 998 sectors needed at location 345715 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Overall to target  0.094 seconds (41.47 MBps)
+15:10:24: INFO: {percent files transferred  90.09%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  90.09%}
+15:10:24: INFO: In handleProgram('hypvm.mbn')
+15:10:24: INFO: Looking for file 'hypvm.mbn'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\hypvm.mbn'}
+15:10:24: INFO: {<program> (1.58 MB) 405 sectors needed at location 346739 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:24: INFO: Overall to target  0.047 seconds (33.66 MBps)
+15:10:24: INFO: {percent files transferred  90.13%}
+15:10:24: INFO: 
+15:10:24: INFO: =======================================================
+15:10:24: INFO: ==================== {SUCCESS} ========================
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: {percent files transferred  90.13%}
+15:10:24: INFO: In handleProgram('NON-HLOS.bin')
+15:10:24: INFO: Looking for file 'NON-HLOS.bin'
+15:10:24: INFO: =======================================================
+15:10:24: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\NON-HLOS.bin'}
+15:10:24: INFO: {<program> (76.23 MB) 19515 sectors needed at location 348787 on LUN 4}
+15:10:24: INFO: =======================================================
+
+
+15:10:24: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:26: INFO: Overall to target  1.797 seconds (42.42 MBps)
+15:10:26: INFO: {percent files transferred  91.77%}
+15:10:26: INFO: 
+15:10:26: INFO: =======================================================
+15:10:26: INFO: ==================== {SUCCESS} ========================
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: {percent files transferred  91.77%}
+15:10:26: INFO: In handleProgram('BTFM.bin')
+15:10:26: INFO: Looking for file 'BTFM.bin'
+15:10:26: INFO: =======================================================
+15:10:26: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\BTFM.bin'}
+15:10:26: INFO: {<program> (1.39 MB) 355 sectors needed at location 430707 on LUN 4}
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:26: INFO: Overall to target  0.032 seconds (43.33 MBps)
+15:10:26: INFO: {percent files transferred  91.80%}
+15:10:26: INFO: 
+15:10:26: INFO: =======================================================
+15:10:26: INFO: ==================== {SUCCESS} ========================
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: {percent files transferred  91.80%}
+15:10:26: INFO: In handleProgram('abl.elf')
+15:10:26: INFO: Looking for file 'abl.elf'
+15:10:26: INFO: =======================================================
+15:10:26: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\abl.elf'}
+15:10:26: INFO: {<program> (207.80 KB) 52 sectors needed at location 441459 on LUN 4}
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:26: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:26: INFO: 
+15:10:26: INFO: =======================================================
+15:10:26: INFO: ==================== {SUCCESS} ========================
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: {percent files transferred  91.80%}
+15:10:26: INFO: In handleProgram('dspso.bin')
+15:10:26: INFO: Looking for file 'dspso.bin'
+15:10:26: INFO: =======================================================
+15:10:26: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dspso.bin'}
+15:10:26: INFO: {<program> (64.00 MB) 16384 sectors needed at location 441715 on LUN 4}
+15:10:26: INFO: =======================================================
+
+
+15:10:26: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:28: INFO: Overall to target  1.500 seconds (42.67 MBps)
+15:10:28: INFO: {percent files transferred  93.18%}
+15:10:28: INFO: 
+15:10:28: INFO: =======================================================
+15:10:28: INFO: ==================== {SUCCESS} ========================
+15:10:28: INFO: =======================================================
+
+
+15:10:28: INFO: {percent files transferred  93.18%}
+15:10:28: INFO: In handleProgram('keymint.mbn')
+15:10:28: INFO: Looking for file 'keymint.mbn'
+15:10:28: INFO: =======================================================
+15:10:28: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\keymint.mbn'}
+15:10:28: INFO: {<program> (400.09 KB) 101 sectors needed at location 458099 on LUN 4}
+15:10:28: INFO: =======================================================
+
+
+15:10:28: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:28: INFO: Overall to target  0.016 seconds (24.66 MBps)
+15:10:28: INFO: {percent files transferred  93.19%}
+15:10:28: INFO: 
+15:10:28: INFO: =======================================================
+15:10:28: INFO: ==================== {SUCCESS} ========================
+15:10:28: INFO: =======================================================
+
+
+15:10:28: INFO: {percent files transferred  93.19%}
+15:10:28: INFO: In handleProgram('boot.img')
+15:10:28: INFO: Looking for file 'boot.img'
+15:10:28: INFO: =======================================================
+15:10:28: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\boot.img'}
+15:10:28: INFO: {<program> (96.00 MB) 24576 sectors needed at location 458227 on LUN 4}
+15:10:28: INFO: =======================================================
+
+
+15:10:28: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Overall to target  2.016 seconds (42.66 MBps)
+15:10:30: INFO: {percent files transferred  95.04%}
+15:10:30: INFO: Overall to target  2.266 seconds (42.37 MBps)
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: In handleProgram('devcfg.mbn')
+15:10:30: INFO: Looking for file 'devcfg.mbn'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\devcfg.mbn'}
+15:10:30: INFO: {<program> (55.85 KB) 14 sectors needed at location 482803 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: In handleProgram('qupv3fw.elf')
+15:10:30: INFO: Looking for file 'qupv3fw.elf'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\qupv3fw.elf'}
+15:10:30: INFO: {<program> (52.27 KB) 14 sectors needed at location 482835 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Overall to target  0.016 seconds (3.42 MBps)
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: In handleProgram('vbmeta.img')
+15:10:30: INFO: Looking for file 'vbmeta.img'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta.img'}
+15:10:30: INFO: {<program> (8.00 KB) 2 sectors needed at location 482855 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.26%}
+15:10:30: INFO: In handleProgram('dtbo.img')
+15:10:30: INFO: Looking for file 'dtbo.img'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dtbo.img'}
+15:10:30: INFO: {<program> (14.00 MB) 3584 sectors needed at location 482871 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Overall to target  0.360 seconds (38.89 MBps)
+15:10:30: INFO: {percent files transferred  95.56%}
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.56%}
+15:10:30: INFO: In handleProgram('uefi_sec.mbn')
+15:10:30: INFO: Looking for file 'uefi_sec.mbn'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi_sec.mbn'}
+15:10:30: INFO: {<program> (172.09 KB) 44 sectors needed at location 489015 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.56%}
+15:10:30: INFO: In handleProgram('imagefv.elf')
+15:10:30: INFO: Looking for file 'imagefv.elf'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\imagefv.elf'}
+15:10:30: INFO: {<program> (15.80 KB) 4 sectors needed at location 489527 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.56%}
+15:10:30: INFO: In handleProgram('shrm.elf')
+15:10:30: INFO: Looking for file 'shrm.elf'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\shrm.elf'}
+15:10:30: INFO: {<program> (62.73 KB) 16 sectors needed at location 490039 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.56%}
+15:10:30: INFO: In handleProgram('cpucp.elf')
+15:10:30: INFO: Looking for file 'cpucp.elf'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\cpucp.elf'}
+15:10:30: INFO: {<program> (183.16 KB) 46 sectors needed at location 627571 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.57%}
+15:10:30: INFO: In handleProgram('featenabler.mbn')
+15:10:30: INFO: Looking for file 'featenabler.mbn'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\featenabler.mbn'}
+15:10:30: INFO: {<program> (94.97 KB) 24 sectors needed at location 627827 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:30: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:30: INFO: 
+15:10:30: INFO: =======================================================
+15:10:30: INFO: ==================== {SUCCESS} ========================
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: {percent files transferred  95.57%}
+15:10:30: INFO: In handleProgram('vendor_boot.img')
+15:10:30: INFO: Looking for file 'vendor_boot.img'
+15:10:30: INFO: =======================================================
+15:10:30: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vendor_boot.img'}
+15:10:30: INFO: {<program> (96.00 MB) 24576 sectors needed at location 627859 on LUN 4}
+15:10:30: INFO: =======================================================
+
+
+15:10:30: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:32: INFO: Overall to target  2.015 seconds (43.67 MBps)
+15:10:32: INFO: {percent files transferred  97.46%}
+15:10:33: INFO: Overall to target  2.218 seconds (43.28 MBps)
+15:10:33: INFO: {percent files transferred  97.64%}
+15:10:33: INFO: 
+15:10:33: INFO: =======================================================
+15:10:33: INFO: ==================== {SUCCESS} ========================
+15:10:33: INFO: =======================================================
+
+
+15:10:33: INFO: {percent files transferred  97.64%}
+15:10:33: INFO: In handleProgram('recovery.img')
+15:10:33: INFO: Looking for file 'recovery.img'
+15:10:33: INFO: =======================================================
+15:10:33: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\recovery.img'}
+15:10:33: INFO: {<program> (100.00 MB) 25600 sectors needed at location 652499 on LUN 4}
+15:10:33: INFO: =======================================================
+
+
+15:10:33: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Overall to target  2.000 seconds (43.50 MBps)
+15:10:35: INFO: {percent files transferred  99.51%}
+15:10:35: INFO: Overall to target  2.313 seconds (43.23 MBps)
+15:10:35: INFO: {percent files transferred  99.79%}
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.79%}
+15:10:35: INFO: In handleProgram('XblRamdump.elf')
+15:10:35: INFO: Looking for file 'XblRamdump.elf'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\XblRamdump.elf'}
+15:10:35: INFO: {<program> (787.90 KB) 197 sectors needed at location 678099 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Overall to target  0.016 seconds (48.10 MBps)
+15:10:35: INFO: {percent files transferred  99.81%}
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.81%}
+15:10:35: INFO: In handleProgram('init_boot.img')
+15:10:35: INFO: Looking for file 'init_boot.img'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\init_boot.img'}
+15:10:35: INFO: {<program> (8.00 MB) 2048 sectors needed at location 678624 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Overall to target  0.187 seconds (42.78 MBps)
+15:10:35: INFO: {percent files transferred  99.98%}
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.98%}
+15:10:35: INFO: In handleProgram('tools.fv')
+15:10:35: INFO: Looking for file 'tools.fv'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\tools.fv'}
+15:10:35: INFO: {<program> (384.00 KB) 96 sectors needed at location 689287 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Overall to target  0.015 seconds (25.00 MBps)
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('logfs_ufs_8mb.bin')
+15:10:35: INFO: Looking for file 'logfs_ufs_8mb.bin'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\logfs_ufs_8mb.bin'}
+15:10:35: INFO: {<program> (16.00 KB) 4 sectors needed at location 689543 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('storsec.mbn')
+15:10:35: INFO: Looking for file 'storsec.mbn'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\storsec.mbn'}
+15:10:35: INFO: {<program> (32.09 KB) 9 sectors needed at location 822663 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('sec.elf')
+15:10:35: INFO: Looking for file 'sec.elf'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\sec.elf'}
+15:10:35: INFO: {<program> (11.80 KB) 3 sectors needed at location 822823 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('gpt_main4.bin')
+15:10:35: INFO: Looking for file 'gpt_main4.bin'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main4.bin'}
+15:10:35: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('gpt_backup4.bin')
+15:10:35: INFO: Looking for file 'gpt_backup4.bin'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup4.bin'}
+15:10:35: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 4}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('gpt_main5.bin')
+15:10:35: INFO: Looking for file 'gpt_main5.bin'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main5.bin'}
+15:10:35: INFO: {<program> (24.00 KB) 6 sectors needed at location 0 on LUN 5}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: In handleProgram('gpt_backup5.bin')
+15:10:35: INFO: Looking for file 'gpt_backup5.bin'
+15:10:35: INFO: =======================================================
+15:10:35: INFO: {<program> FILE: '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup5.bin'}
+15:10:35: INFO: {<program> (20.00 KB) 5 sectors needed at location 0 on LUN 5}
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+15:10:35: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+15:10:35: INFO: 
+15:10:35: INFO: =======================================================
+15:10:35: INFO: ==================== {SUCCESS} ========================
+15:10:35: INFO: =======================================================
+
+
+15:10:35: INFO: {percent files transferred  99.99%}
+15:10:35: INFO: ==============================================================
+15:10:35: INFO: Files used and their paths
+15:10:35: INFO:   1 'D:\Workspace\haier\port_trace.txt'
+15:10:35: INFO:   2 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\rawprogram0_split.xml'
+15:10:35: INFO:   3 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\zero.bin'
+15:10:35: INFO:   4 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_1.img'
+15:10:35: INFO:   5 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_2.img'
+15:10:35: INFO:   6 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_3.img'
+15:10:35: INFO:   7 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_4.img'
+15:10:35: INFO:   8 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_5.img'
+15:10:35: INFO:   9 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_6.img'
+15:10:35: INFO:  10 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_7.img'
+15:10:35: INFO:  11 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\super_8.img'
+15:10:35: INFO:  12 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta_system.img'
+15:10:35: INFO:  13 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_1.img'
+15:10:35: INFO:  14 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_2.img'
+15:10:35: INFO:  15 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_3.img'
+15:10:35: INFO:  16 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_4.img'
+15:10:35: INFO:  17 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\metadata_5.img'
+15:10:35: INFO:  18 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_1.img'
+15:10:35: INFO:  19 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_2.img'
+15:10:35: INFO:  20 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_3.img'
+15:10:35: INFO:  21 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_4.img'
+15:10:35: INFO:  22 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_5.img'
+15:10:35: INFO:  23 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_6.img'
+15:10:35: INFO:  24 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_7.img'
+15:10:35: INFO:  25 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_8.img'
+15:10:35: INFO:  26 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_9.img'
+15:10:35: INFO:  27 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\userdata_10.img'
+15:10:35: INFO:  28 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main0.bin'
+15:10:35: INFO:  29 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup0.bin'
+15:10:35: INFO:  30 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_s.melf'
+15:10:35: INFO:  31 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\xbl_config.elf'
+15:10:35: INFO:  32 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image_qti.mbn'
+15:10:35: INFO:  33 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\multi_image.mbn'
+15:10:35: INFO:  34 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main1.bin'
+15:10:35: INFO:  35 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup1.bin'
+15:10:35: INFO:  36 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main2.bin'
+15:10:35: INFO:  37 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup2.bin'
+15:10:35: INFO:  38 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\zeros_5sectors.bin'
+15:10:35: INFO:  39 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main3.bin'
+15:10:35: INFO:  40 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup3.bin'
+15:10:35: INFO:  41 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi.elf'
+15:10:35: INFO:  42 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop.mbn'
+15:10:35: INFO:  43 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\aop_devcfg.mbn'
+15:10:35: INFO:  44 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\tz.mbn'
+15:10:35: INFO:  45 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\hypvm.mbn'
+15:10:35: INFO:  46 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\NON-HLOS.bin'
+15:10:35: INFO:  47 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\BTFM.bin'
+15:10:35: INFO:  48 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\abl.elf'
+15:10:35: INFO:  49 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dspso.bin'
+15:10:35: INFO:  50 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\keymint.mbn'
+15:10:35: INFO:  51 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\boot.img'
+15:10:35: INFO:  52 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\devcfg.mbn'
+15:10:35: INFO:  53 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\qupv3fw.elf'
+15:10:35: INFO:  54 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vbmeta.img'
+15:10:35: INFO:  55 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\dtbo.img'
+15:10:35: INFO:  56 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\uefi_sec.mbn'
+15:10:35: INFO:  57 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\imagefv.elf'
+15:10:35: INFO:  58 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\shrm.elf'
+15:10:35: INFO:  59 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\cpucp.elf'
+15:10:35: INFO:  60 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\featenabler.mbn'
+15:10:35: INFO:  61 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\vendor_boot.img'
+15:10:35: INFO:  62 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\recovery.img'
+15:10:35: INFO:  63 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\XblRamdump.elf'
+15:10:35: INFO:  64 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\init_boot.img'
+15:10:35: INFO:  65 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\tools.fv'
+15:10:35: INFO:  66 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\logfs_ufs_8mb.bin'
+15:10:35: INFO:  67 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\storsec.mbn'
+15:10:35: INFO:  68 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\sec.elf'
+15:10:35: INFO:  69 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main4.bin'
+15:10:35: INFO:  70 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup4.bin'
+15:10:35: INFO:  71 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_main5.bin'
+15:10:35: INFO:  72 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\gpt_backup5.bin'
+
+
+
+	                         (_)            
+	__      ____ _ _ __ _ __  _ _ __   __ _ 
+	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+	 \ V  V / (_| | |  | | | | | | | | (_| |
+	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+	                                   __/ |
+	                                  |___/ 
+
+
+15:10:35: INFO: ==============================================================
+15:10:35: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+User requested to ONLY program num_partition_sectors 256 of 'zero.bin' (1.00 MB).
+To load this file completely would require 384 sectors (1.50 MB) and SectorSizeInBytes=4096.
+This is usually a MISTAKE but there is a use case where you want to write only part of the image!
+
+NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+
+
+15:10:35: INFO: ==============================================================
+15:10:35: INFO:      _             (done)
+15:10:35: INFO:     | |                 
+15:10:35: INFO:   __| | ___  _ __   ___ 
+15:10:35: INFO:  / _` |/ _ \| '_ \ / _ \
+15:10:35: INFO: | (_| | (_) | | | |  __/
+15:10:35: INFO:  \__,_|\___/|_| |_|\___|
+15:10:35: INFO: {All Finished Successfully}
+
+15:10:35: INFO: Overall to target 152.313 seconds (30.50 MBps)
+15:10:35: INFO: {percent files transferred  99.99%}
+
+Writing log to 'D:\Workspace\haier\port_trace.txt', might take a minute
+
+
+Log is 'D:\Workspace\haier\port_trace.txt'
+
+
+
+[15:10:35] main xml (rawprogram0_split.xml) done
+[15:10:35] step patch0.xml: fh_loader --port=\\.\COM13 --sendxml=patch0.xml --search_path=\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs
+
+Base Version: 19.06.10.18.44
+Binary build date: Jun 25 2019 @ 03:16:10
+Incremental Build version: 19.06.25.03.16.10
+
+15:10:35: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\Workspace\haier\edl_flash\tools\fh_loader.exe --port=\\.\COM13 --sendxml=patch0.xml --search_path=\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs 
+************************************************
+
+15:10:35: INFO: Current working dir (cwd): D:\Workspace\haier\
+15:10:35: INFO: Showing network mappings to allow debugging
+15:10:35: INFO: 
+
+
+
+15:10:35: INFO: Trying to store 'patch0.xml' in string table
+15:10:35: INFO: Looking for file 'patch0.xml'
+15:10:36: INFO: User wants to talk to port '\\.\COM13'
+15:10:36: INFO: Took       0.00000000 seconds to open port
+15:10:36: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+15:10:36: INFO: Sending <configure>
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for patch'
+15:10:36: INFO: ==============================================================
+15:10:36: INFO: Files used and their paths
+15:10:36: INFO:   1 'D:\Workspace\haier\port_trace.txt'
+15:10:36: INFO:   2 '\\192.168.110.200\tinch\haier\LA.VENDOR.13.2.6\A8550BM1_EQ000_2774.DA54D9B33.A7FD7A55B.95C9A9E8D_260914_100_V01_U100\patch0.xml'
+
+15:10:36: INFO:      _             (done)
+15:10:36: INFO:     | |                 
+15:10:36: INFO:   __| | ___  _ __   ___ 
+15:10:36: INFO:  / _` |/ _ \| '_ \ / _ \
+15:10:36: INFO: | (_| | (_) | | | |  __/
+15:10:36: INFO:  \__,_|\___/|_| |_|\___|
+15:10:36: INFO: {All Finished Successfully}
+
+15:10:36: INFO: Overall to target  0.094 seconds (0.00 Bps)
+
+Writing log to 'D:\Workspace\haier\port_trace.txt', might take a minute
+
+
+Log is 'D:\Workspace\haier\port_trace.txt'
+
+
+
+[15:10:36] patch0.xml done
+[15:10:36] step setactivepartition=1: fh_loader --port=\\.\COM13 --setactivepartition=1 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs
+
+Base Version: 19.06.10.18.44
+Binary build date: Jun 25 2019 @ 03:16:10
+Incremental Build version: 19.06.25.03.16.10
+
+15:10:36: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\Workspace\haier\edl_flash\tools\fh_loader.exe --port=\\.\COM13 --setactivepartition=1 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs 
+************************************************
+
+15:10:36: INFO: Current working dir (cwd): D:\Workspace\haier\
+15:10:36: INFO: Showing network mappings to allow debugging
+15:10:36: INFO: User wants to talk to port '\\.\COM13'
+15:10:36: INFO: Took       0.00000000 seconds to open port
+15:10:36: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+15:10:36: INFO: Sending <configure>
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+15:10:36: INFO: Sending <setbootablestoragedrive>
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for setbootablestoragedrive'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Using scheme of value= 1'
+15:10:36: INFO: ==============================================================
+15:10:36: INFO: Files used and their paths
+15:10:36: INFO:   1 'D:\Workspace\haier\port_trace.txt'
+
+15:10:36: INFO:      _             (done)
+15:10:36: INFO:     | |                 
+15:10:36: INFO:   __| | ___  _ __   ___ 
+15:10:36: INFO:  / _` |/ _ \| '_ \ / _ \
+15:10:36: INFO: | (_| | (_) | | | |  __/
+15:10:36: INFO:  \__,_|\___/|_| |_|\___|
+15:10:36: INFO: {All Finished Successfully}
+
+15:10:36: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+Writing log to 'D:\Workspace\haier\port_trace.txt', might take a minute
+
+
+Log is 'D:\Workspace\haier\port_trace.txt'
+
+
+
+[15:10:36] setactivepartition=1 done
+[15:10:36] step reset: fh_loader --port=\\.\COM13 --reset --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs
+
+Base Version: 19.06.10.18.44
+Binary build date: Jun 25 2019 @ 03:16:10
+Incremental Build version: 19.06.25.03.16.10
+
+15:10:36: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\Workspace\haier\edl_flash\tools\fh_loader.exe --port=\\.\COM13 --reset --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=ufs 
+************************************************
+
+15:10:36: INFO: Current working dir (cwd): D:\Workspace\haier\
+15:10:36: INFO: Showing network mappings to allow debugging
+15:10:36: INFO: User wants to talk to port '\\.\COM13'
+15:10:36: INFO: Took       0.01600000 seconds to open port
+15:10:36: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+15:10:36: INFO: Sending <configure>
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+15:10:36: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+15:10:36: INFO: Sending <power>
+
+15:10:36: INFO: TARGET SAID: 'INFO: Calling handler for power'
+
+15:10:36: INFO: TARGET SAID: 'INFO: Will issue reset/power off 10000000 useconds, if this hangs check if watchdog is enabled'
+
+15:10:36: INFO: TARGET SAID: 'INFO: bsp_target_reset() 1'
+15:10:36: INFO: ==============================================================
+15:10:36: INFO: Files used and their paths
+15:10:36: INFO:   1 'D:\Workspace\haier\port_trace.txt'
+
+15:10:36: INFO:      _             (done)
+15:10:36: INFO:     | |                 
+15:10:36: INFO:   __| | ___  _ __   ___ 
+15:10:36: INFO:  / _` |/ _ \| '_ \ / _ \
+15:10:36: INFO: | (_| | (_) | | | |  __/
+15:10:36: INFO:  \__,_|\___/|_| |_|\___|
+15:10:36: INFO: {All Finished Successfully}
+
+15:10:36: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+Writing log to 'D:\Workspace\haier\port_trace.txt', might take a minute
+
+
+Log is 'D:\Workspace\haier\port_trace.txt'
+
+
+
+[15:10:36] reset done
+[15:10:36] step6: wait reboot, adb back (up to 5min)
+[15:11:17] device back: 006
+[15:11:17] fingerprint: qti/kalama/kalama:13/TKQ1.240423.001/iro09142050:user/test-keys
+[15:11:17] vendor build date: Mon Sep 14 20:50:07 CST 2026
+[15:11:17] build type: user
+[15:11:17] log: D:\Workspace\haier\edl_flash\logs\flash_20260915_150757.log
+[15:11:17] FLASH_OK
